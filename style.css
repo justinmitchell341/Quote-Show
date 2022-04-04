@@ -1,0 +1,37 @@
+/* Stylesheet */
+
+/* Import Google Font */
+@import url("https://fonts.googleapis.com/css2?family=Bellefair&display=swap");
+
+body {
+  /* Horizontal and Vertical Center */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  /* Extend full height of browser  */
+  height: 100vh;
+
+  /* Load Background Images with JS. Style with CSS */
+  background-size: cover;
+  cursor: url("assets/cursor.svg"), default;
+}
+
+/* Apply Font */
+main {
+  font-family: Bellefair;
+  font-size: 5vmin;
+  text-align: center;
+  border: 3px solid #a88e46;
+  color: #efefe7;
+  background-color: rgb(68 95 165 / 50%);
+  box-shadow: 1px 1px 15px 1px #000000;
+}
+
+.random, .prev, .next, .play {
+    padding-top: 5vh;
+}
+.play{
+  padding-top: 3vh;
+}
